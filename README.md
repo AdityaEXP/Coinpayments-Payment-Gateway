@@ -24,4 +24,4 @@ password_you_used_at_config.php = The password you setuped at Coinpayments_Confi
 <br>
 
 #### Code Examples Is In 'examples' Directory!!
-#### **For more codes join https://t.me/TGBotsByLazy**
+#### **My Channel https://t.me/TGBotsByLazy**
