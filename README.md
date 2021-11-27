@@ -4,7 +4,7 @@
 ### Setuping Up
 > First Go To /Coinpayments_Config Directory 
 > 
-> Fill Out $private_key, $public_key(recived from coinpayments), $ipn_url (the url of ipn.php upload to your url) & finally select a $password which will be used to verify at get_callback_address.php
+> Fill Out $private_key, $public_key(recived from coinpayments), $ipn_url (the url of ipn.php upload to your server) & finally select a $password which will be used to verify at get_callback_address.php
 
 ### Now let's see how to use it
 To Get Address : www.domain.com/get_callback_address.php?currency=crypto_from_coinpayments&unique_identifier=a_way_to_identify_user&password=password_you_used_at_config.php
