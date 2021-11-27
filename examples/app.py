@@ -1,6 +1,6 @@
 import requests
 
-your_server_url = 'https://www.domain.xyz/coinpayementsIPN'
+your_server_url = 'https://www.domain.xyz/coinpayementsIPN' #Where the all coinpayment deposite files will be found
 
 currency = 'BTC' #BTC, ETH, LTC, DOGE etc....
 unique_identifier = '100000' #Unique ID to identify user it can be telegram id or email etc....
