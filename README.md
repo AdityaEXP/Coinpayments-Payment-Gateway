@@ -16,7 +16,10 @@ unique_identifier = It can be anything to identify the user who made deposit lik
 password_you_used_at_config.php = The password you setuped at Coinpayments_Config/config.php in $password variable default it will be setuped to 'aditya'
 ```
 <br>
+
 ##### Note : The ipn.php is currently only saving details to a txt file you have to edit to your own needs
+
 <br>
+
 #### Code Examples Is In 'examples' Directory!!
 #### **For more codes join https://t.me/TGBotsByLazy**
