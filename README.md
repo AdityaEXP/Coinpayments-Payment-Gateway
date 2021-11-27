@@ -14,9 +14,12 @@ To Get Address : www.domain.com/get_callback_address.php?currency=crypto_from_co
 crypto_from_coinpayments = TRX, BTC, ETH & etc....
 unique_identifier = It can be anything to identify the user who made deposit like telegram id , email or any unique id given to user.
 password_you_used_at_config.php = The password you setuped at Coinpayments_Config/config.php in $password variable default it will be setuped to 'aditya'
+
+<b> Note : The ipn.php is currently only saving details to a txt file you have to edit to your own needs </b>
+
 ```
 <br>
-##### Note : The ipn.php is currently only saving details to a txt file you have to edit to your own needs
+
 
 <br>
 
