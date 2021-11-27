@@ -5,13 +5,13 @@ $cps = new CoinPaymentsAPI();
 
 $cps->Setup($private_key, $public_key);
 $currency = $_GET['currency'];
-$chat_id = $_GET['chat_id'];
+$unique_identifier = $_GET['unique_identifier'];
 $pass = $_GET['password'];
 
-$result = $cps->GetCallbackAddress($currency = $currency , $label = $chat_id ,$ipn_url = $ipn_url);
+$result = $cps->GetCallbackAddress($currency = $currency , $label = $unique_identifier ,$ipn_url = $ipn_url);
 
-if(!isset($_GET['currency']) or !isset($_GET['chat_id']) or !isset($_GET['password'])){
-    die('Paramters currency, chat_id or password is missing');
+if(!isset($_GET['currency']) or !isset($_GET['unique_identifier']) or !isset($_GET['password'])){
+    die('Paramters currency, unique_identifier or password is missing');
 }
 
 if($pass != $password){
@@ -24,7 +24,7 @@ if ($result["error"] == "ok"){
     return;
 }
 
-echo "error";
+print_r($result["error"]);
 
 
 ?>
