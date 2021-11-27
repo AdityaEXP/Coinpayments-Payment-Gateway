@@ -17,5 +17,6 @@ password_you_used_at_config.php = The password you setuped at Coinpayments_Confi
 ```
 <br>
 
+##### Note : The ipn.php is currently only saving details to a txt file you have to edit to your own needs
 #### Code Examples Is In 'examples' Directory!!
 #### **For more codes join https://t.me/TGBotsByLazy**
