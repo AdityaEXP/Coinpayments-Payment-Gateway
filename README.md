@@ -1,5 +1,5 @@
 # Coinpayments-Payment-Gateway
-### A Coinpayments Payment Gateway Coded In PHP, It Uses IPN For Recieving Deposites
+### A Coinpayments Payment Gateway Coded In PHP, It Uses IPN For Recieving Deposits
 
 ### Setuping Up
 > First Go To /Coinpayments_Config Directory 
